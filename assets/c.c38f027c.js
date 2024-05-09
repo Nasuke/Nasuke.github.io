@@ -89,6 +89,7 @@ function _createMdxContent(props) {
     a: "a",
     h3: "h3",
     div: "div",
+    button: "button",
     span: "span",
     pre: "pre",
     img: "img"
@@ -140,7 +141,9 @@ function _createMdxContent(props) {
       }), "\u94A9\u5B50", "\u53EF\u4EE5\u5728\u5176\u4E2D\u5BF9\u914D\u7F6E\u5BF9\u8C61\u505A\u81EA\u5B9A\u4E49\u64CD\u4F5C"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -804,7 +807,9 @@ function _createMdxContent(props) {
       children: "\u7528\u4E8E\u8BB0\u5F55\u4FE1\u606F\u4EE5\u5171\u4EAB"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -1217,7 +1222,9 @@ function _createMdxContent(props) {
       children: "\u7528\u4E8E\u62D3\u5C55\u4E2D\u95F4\u4EF6 \u53EF\u4EE5\u653E\u5230\u5185\u7F6E\u4E2D\u95F4\u4EF6\u4E4B\u524D\u6216\u8005\u4E4B\u540E\u6267\u884C"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -1757,7 +1764,9 @@ function _createMdxContent(props) {
       children: "\u62FF\u5230\u5185\u5BB9\u8FDB\u884C\u8F6C\u6362"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -2676,7 +2685,9 @@ function _createMdxContent(props) {
       children: "\u53EF\u4EE5\u62FF\u5230\u70ED\u66F4\u65B0\u76F8\u5173\u7684\u4E0A\u4E0B\u6587 \u81EA\u5B9A\u4E49\u5904\u7406"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -3733,7 +3744,9 @@ function _createMdxContent(props) {
       }), "  \u901A\u8FC7\u8BE5\u5C5E\u6027\u53EF\u4EE5\u51B3\u5B9A\u63D2\u4EF6\u751F\u6548\u73AF\u5883"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -4005,7 +4018,9 @@ function _createMdxContent(props) {
       }), "\u6765\u63A7\u5236"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -4106,7 +4121,9 @@ function _createMdxContent(props) {
       })]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -5045,7 +5062,9 @@ function _createMdxContent(props) {
       }), "Vite\u7684HMR\u7CFB\u7EDF\u57FA\u4E8E\u5143\u7D20\u7684ESM\u6A21\u5757\u89C4\u8303\u6765\u5B9E\u73B0", "\u8FD9\u662FHMR API\u5B9A\u4E49"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -6001,7 +6020,9 @@ function _createMdxContent(props) {
       children: ["\u5F53\u63A5\u53D7\u81EA\u8EAB\u66F4\u65B0\u65F6 \u8FB9\u754C\u5728\u81EA\u8EAB \u56DE\u8C03\u51FD\u6570\u5728\u81EA\u8EAB\u7F16\u5199 \u5176\u5B83\u6A21\u5757\u6CA1\u6709\u5F71\u54CD", "\u5F53\u63A5\u53D7\u5B50\u6A21\u5757\u66F4\u65B0\u65F6 \u8FB9\u754C\u5728\u7236\u6A21\u5757 \u5373\u7F16\u5199\u56DE\u8C03\u51FD\u6570\u7684\u5730\u65B9", "\u591A\u4E2A\u5B50\u6A21\u5757\u540C\u7406"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -7057,7 +7078,9 @@ function _createMdxContent(props) {
       children: "\u65E7\u6A21\u5757\u9500\u6BC1 \u6A21\u5757\u66F4\u65B0\u65F6\u53EF\u4EE5\u4F7F\u7528\u5B83\u505A\u4E00\u4E9B\u526F\u4F5C\u7528\u6E05\u9664\u64CD\u4F5C \u5982\u9500\u6BC1\u5B9A\u65F6\u5668"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -7755,7 +7778,9 @@ function _createMdxContent(props) {
       children: "\u81EA\u52A8CSS\u5206\u5272 \u4E00\u4E2Achunk\u5BF9\u5E94\u4E00\u4E2Acss\u6587\u4EF6"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -8109,7 +8134,9 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -8301,7 +8328,9 @@ function _createMdxContent(props) {
       }), "\u53EF\u4EE5\u901A\u8FC7\u914D\u7F6E\u5BF9\u8C61\u6216\u8005\u51FD\u6570\u7684\u4E24\u79CD\u65B9\u5F0F"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -9206,7 +9235,9 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -11420,7 +11451,9 @@ function _createMdxContent(props) {
       children: "\u5B89\u88C5\u63D2\u4EF6"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {
@@ -11511,7 +11544,9 @@ function _createMdxContent(props) {
       children: "\u5F15\u7528"
     }), "\n", jsxs(_components.div, {
       className: "language-typescript",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "typescript"
       }), jsx(_components.pre, {

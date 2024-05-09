@@ -574,25 +574,75 @@ var loadable$2 = loadable;
 loadable$2.lib = loadable$1;
 var lazy$2 = lazy;
 lazy$2.lib = lazy$1;
-const Route0 = loadable$2(() => __vitePreload(() => import("./Counter.d5b2d18b.js"), true ? [] : void 0));
-const Route1 = loadable$2(() => __vitePreload(() => import("./b.4789c82e.js"), true ? [] : void 0));
-const Route2 = loadable$2(() => __vitePreload(() => import("./Counter.9240fc96.js"), true ? [] : void 0));
-const Route3 = loadable$2(() => __vitePreload(() => import("./a.3ce6d8ba.js"), true ? [] : void 0));
-const Route4 = loadable$2(() => __vitePreload(() => import("./b.3f6e98d9.js"), true ? ["assets/b.3f6e98d9.js","assets/Counter.9240fc96.js"] : void 0));
-const Route5 = loadable$2(() => __vitePreload(() => import("./c.dc0dffb2.js"), true ? [] : void 0));
-const Route6 = loadable$2(() => __vitePreload(() => import("./d.b0896ed4.js"), true ? [] : void 0));
-const Route7 = loadable$2(() => __vitePreload(() => import("./index.72bfdb32.js"), true ? [] : void 0));
-const Route8 = loadable$2(() => __vitePreload(() => import("./index.48aecb7b.js"), true ? [] : void 0));
+const Route0 = loadable$2(() => __vitePreload(() => import("./1.6cec6015.js"), true ? [] : void 0));
+const Route1 = loadable$2(() => __vitePreload(() => import("./11.cde25259.js"), true ? [] : void 0));
+const Route2 = loadable$2(() => __vitePreload(() => import("./1a.0ff1739d.js"), true ? [] : void 0));
+const Route3 = loadable$2(() => __vitePreload(() => import("./2.d3c5ff3e.js"), true ? [] : void 0));
+const Route4 = loadable$2(() => __vitePreload(() => import("./22.4f33df7f.js"), true ? [] : void 0));
+const Route5 = loadable$2(() => __vitePreload(() => import("./2a.ef473cba.js"), true ? [] : void 0));
+const Route6 = loadable$2(() => __vitePreload(() => import("./3.832fc225.js"), true ? [] : void 0));
+const Route7 = loadable$2(() => __vitePreload(() => import("./33.550f8c32.js"), true ? [] : void 0));
+const Route8 = loadable$2(() => __vitePreload(() => import("./4.ddab6d94.js"), true ? [] : void 0));
+const Route9 = loadable$2(() => __vitePreload(() => import("./44.9790c5c5.js"), true ? [] : void 0));
+const Route10 = loadable$2(() => __vitePreload(() => import("./5.1a7b8a68.js"), true ? [] : void 0));
+const Route11 = loadable$2(() => __vitePreload(() => import("./55.ea209b9a.js"), true ? [] : void 0));
+const Route12 = loadable$2(() => __vitePreload(() => import("./6.d028231b.js"), true ? [] : void 0));
+const Route13 = loadable$2(() => __vitePreload(() => import("./66.46b8a49f.js"), true ? [] : void 0));
+const Route14 = loadable$2(() => __vitePreload(() => import("./index.70f310e2.js"), true ? [] : void 0));
+const Route15 = loadable$2(() => __vitePreload(() => import("./b.4789c82e.js"), true ? [] : void 0));
+const Route16 = loadable$2(() => __vitePreload(() => import("./Counter.9240fc96.js"), true ? [] : void 0));
+const Route17 = loadable$2(() => __vitePreload(() => import("./a.23593ce0.js"), true ? [] : void 0));
+const Route18 = loadable$2(() => __vitePreload(() => import("./b.f09a7381.js"), true ? [] : void 0));
+const Route19 = loadable$2(() => __vitePreload(() => import("./c.c38f027c.js"), true ? [] : void 0));
+const Route20 = loadable$2(() => __vitePreload(() => import("./configure-site.ea2333dc.js"), true ? [] : void 0));
+const Route21 = loadable$2(() => __vitePreload(() => import("./d.b488e531.js"), true ? [] : void 0));
+const Route22 = loadable$2(() => __vitePreload(() => import("./extension.5d3c280b.js"), true ? [] : void 0));
+const Route23 = loadable$2(() => __vitePreload(() => import("./home-page.8469fd9d.js"), true ? [] : void 0));
+const Route24 = loadable$2(() => __vitePreload(() => import("./index.54b16534.js"), true ? [] : void 0));
+const Route25 = loadable$2(() => __vitePreload(() => import("./island.57763aa7.js"), true ? [] : void 0));
+const Route26 = loadable$2(() => __vitePreload(() => import("./navbar.7dd9998f.js"), true ? [] : void 0));
+const Route27 = loadable$2(() => __vitePreload(() => import("./route.c57f785e.js"), true ? [] : void 0));
+const Route28 = loadable$2(() => __vitePreload(() => import("./use-mdx.788ab2ec.js"), true ? [] : void 0));
+const Route29 = loadable$2(() => __vitePreload(() => import("./z.b2cbaea0.js"), true ? ["assets/z.b2cbaea0.js","assets/Counter.9240fc96.js"] : void 0));
+const Route30 = loadable$2(() => __vitePreload(() => import("./index.88c63b68.js"), true ? [] : void 0));
+const Route31 = loadable$2(() => __vitePreload(() => import("./a.b0468372.js"), true ? ["assets/a.b0468372.js","assets/play.938f1e11.js","assets/play.3ff3c1c4.css"] : void 0));
+const Route32 = loadable$2(() => __vitePreload(() => import("./index.b9615f84.js"), true ? [] : void 0));
+const Route33 = loadable$2(() => __vitePreload(() => import("./play.938f1e11.js"), true ? ["assets/play.938f1e11.js","assets/play.3ff3c1c4.css"] : void 0));
 [
-  { path: "/Counter", element: React.createElement(Route0), preload: () => __vitePreload(() => import("./Counter.d5b2d18b.js"), true ? [] : void 0) },
-  { path: "/b", element: React.createElement(Route1), preload: () => __vitePreload(() => import("./b.4789c82e.js"), true ? [] : void 0) },
-  { path: "/guide/Counter", element: React.createElement(Route2), preload: () => __vitePreload(() => import("./Counter.9240fc96.js"), true ? [] : void 0) },
-  { path: "/guide/a", element: React.createElement(Route3), preload: () => __vitePreload(() => import("./a.3ce6d8ba.js"), true ? [] : void 0) },
-  { path: "/guide/b", element: React.createElement(Route4), preload: () => __vitePreload(() => import("./b.3f6e98d9.js"), true ? ["assets/b.3f6e98d9.js","assets/Counter.9240fc96.js"] : void 0) },
-  { path: "/guide/c", element: React.createElement(Route5), preload: () => __vitePreload(() => import("./c.dc0dffb2.js"), true ? [] : void 0) },
-  { path: "/guide/d", element: React.createElement(Route6), preload: () => __vitePreload(() => import("./d.b0896ed4.js"), true ? [] : void 0) },
-  { path: "/guide/", element: React.createElement(Route7), preload: () => __vitePreload(() => import("./index.72bfdb32.js"), true ? [] : void 0) },
-  { path: "/", element: React.createElement(Route8), preload: () => __vitePreload(() => import("./index.48aecb7b.js"), true ? [] : void 0) }
+  { path: "/aigc/1", element: React.createElement(Route0), preload: () => __vitePreload(() => import("./1.6cec6015.js"), true ? [] : void 0) },
+  { path: "/aigc/11", element: React.createElement(Route1), preload: () => __vitePreload(() => import("./11.cde25259.js"), true ? [] : void 0) },
+  { path: "/aigc/1a", element: React.createElement(Route2), preload: () => __vitePreload(() => import("./1a.0ff1739d.js"), true ? [] : void 0) },
+  { path: "/aigc/2", element: React.createElement(Route3), preload: () => __vitePreload(() => import("./2.d3c5ff3e.js"), true ? [] : void 0) },
+  { path: "/aigc/22", element: React.createElement(Route4), preload: () => __vitePreload(() => import("./22.4f33df7f.js"), true ? [] : void 0) },
+  { path: "/aigc/2a", element: React.createElement(Route5), preload: () => __vitePreload(() => import("./2a.ef473cba.js"), true ? [] : void 0) },
+  { path: "/aigc/3", element: React.createElement(Route6), preload: () => __vitePreload(() => import("./3.832fc225.js"), true ? [] : void 0) },
+  { path: "/aigc/33", element: React.createElement(Route7), preload: () => __vitePreload(() => import("./33.550f8c32.js"), true ? [] : void 0) },
+  { path: "/aigc/4", element: React.createElement(Route8), preload: () => __vitePreload(() => import("./4.ddab6d94.js"), true ? [] : void 0) },
+  { path: "/aigc/44", element: React.createElement(Route9), preload: () => __vitePreload(() => import("./44.9790c5c5.js"), true ? [] : void 0) },
+  { path: "/aigc/5", element: React.createElement(Route10), preload: () => __vitePreload(() => import("./5.1a7b8a68.js"), true ? [] : void 0) },
+  { path: "/aigc/55", element: React.createElement(Route11), preload: () => __vitePreload(() => import("./55.ea209b9a.js"), true ? [] : void 0) },
+  { path: "/aigc/6", element: React.createElement(Route12), preload: () => __vitePreload(() => import("./6.d028231b.js"), true ? [] : void 0) },
+  { path: "/aigc/66", element: React.createElement(Route13), preload: () => __vitePreload(() => import("./66.46b8a49f.js"), true ? [] : void 0) },
+  { path: "/aigc/", element: React.createElement(Route14), preload: () => __vitePreload(() => import("./index.70f310e2.js"), true ? [] : void 0) },
+  { path: "/b", element: React.createElement(Route15), preload: () => __vitePreload(() => import("./b.4789c82e.js"), true ? [] : void 0) },
+  { path: "/guide/Counter", element: React.createElement(Route16), preload: () => __vitePreload(() => import("./Counter.9240fc96.js"), true ? [] : void 0) },
+  { path: "/guide/a", element: React.createElement(Route17), preload: () => __vitePreload(() => import("./a.23593ce0.js"), true ? [] : void 0) },
+  { path: "/guide/b", element: React.createElement(Route18), preload: () => __vitePreload(() => import("./b.f09a7381.js"), true ? [] : void 0) },
+  { path: "/guide/c", element: React.createElement(Route19), preload: () => __vitePreload(() => import("./c.c38f027c.js"), true ? [] : void 0) },
+  { path: "/guide/configure-site", element: React.createElement(Route20), preload: () => __vitePreload(() => import("./configure-site.ea2333dc.js"), true ? [] : void 0) },
+  { path: "/guide/d", element: React.createElement(Route21), preload: () => __vitePreload(() => import("./d.b488e531.js"), true ? [] : void 0) },
+  { path: "/guide/extension", element: React.createElement(Route22), preload: () => __vitePreload(() => import("./extension.5d3c280b.js"), true ? [] : void 0) },
+  { path: "/guide/home-page", element: React.createElement(Route23), preload: () => __vitePreload(() => import("./home-page.8469fd9d.js"), true ? [] : void 0) },
+  { path: "/guide/", element: React.createElement(Route24), preload: () => __vitePreload(() => import("./index.54b16534.js"), true ? [] : void 0) },
+  { path: "/guide/island", element: React.createElement(Route25), preload: () => __vitePreload(() => import("./island.57763aa7.js"), true ? [] : void 0) },
+  { path: "/guide/navbar", element: React.createElement(Route26), preload: () => __vitePreload(() => import("./navbar.7dd9998f.js"), true ? [] : void 0) },
+  { path: "/guide/route", element: React.createElement(Route27), preload: () => __vitePreload(() => import("./route.c57f785e.js"), true ? [] : void 0) },
+  { path: "/guide/use-mdx", element: React.createElement(Route28), preload: () => __vitePreload(() => import("./use-mdx.788ab2ec.js"), true ? [] : void 0) },
+  { path: "/guide/z", element: React.createElement(Route29), preload: () => __vitePreload(() => import("./z.b2cbaea0.js"), true ? ["assets/z.b2cbaea0.js","assets/Counter.9240fc96.js"] : void 0) },
+  { path: "/", element: React.createElement(Route30), preload: () => __vitePreload(() => import("./index.88c63b68.js"), true ? [] : void 0) },
+  { path: "/test/a", element: React.createElement(Route31), preload: () => __vitePreload(() => import("./a.b0468372.js"), true ? ["assets/a.b0468372.js","assets/play.938f1e11.js","assets/play.3ff3c1c4.css"] : void 0) },
+  { path: "/test/", element: React.createElement(Route32), preload: () => __vitePreload(() => import("./index.b9615f84.js"), true ? [] : void 0) },
+  { path: "/test/play", element: React.createElement(Route33), preload: () => __vitePreload(() => import("./play.938f1e11.js"), true ? ["assets/play.938f1e11.js","assets/play.3ff3c1c4.css"] : void 0) }
 ];
 createContext({});
 const link$1 = "_link_1qmqp_1";
@@ -814,6 +864,214 @@ var D = propTypes.exports.shape({
   prioritizeSeoTags: propTypes.exports.bool,
   helmetData: propTypes.exports.object
 });
+var toggleSelection = function() {
+  var selection = document.getSelection();
+  if (!selection.rangeCount) {
+    return function() {
+    };
+  }
+  var active = document.activeElement;
+  var ranges = [];
+  for (var i = 0; i < selection.rangeCount; i++) {
+    ranges.push(selection.getRangeAt(i));
+  }
+  switch (active.tagName.toUpperCase()) {
+    case "INPUT":
+    case "TEXTAREA":
+      active.blur();
+      break;
+    default:
+      active = null;
+      break;
+  }
+  selection.removeAllRanges();
+  return function() {
+    selection.type === "Caret" && selection.removeAllRanges();
+    if (!selection.rangeCount) {
+      ranges.forEach(function(range) {
+        selection.addRange(range);
+      });
+    }
+    active && active.focus();
+  };
+};
+var deselectCurrent = toggleSelection;
+var clipboardToIE11Formatting = {
+  "text/plain": "Text",
+  "text/html": "Url",
+  "default": "Text"
+};
+var defaultMessage = "Copy to clipboard: #{key}, Enter";
+function format(message) {
+  var copyKey = (/mac os x/i.test(navigator.userAgent) ? "\u2318" : "Ctrl") + "+C";
+  return message.replace(/#{\s*key\s*}/g, copyKey);
+}
+function copy(text, options) {
+  var debug, message, reselectPrevious, range, selection, mark, success = false;
+  if (!options) {
+    options = {};
+  }
+  debug = options.debug || false;
+  try {
+    reselectPrevious = deselectCurrent();
+    range = document.createRange();
+    selection = document.getSelection();
+    mark = document.createElement("span");
+    mark.textContent = text;
+    mark.ariaHidden = "true";
+    mark.style.all = "unset";
+    mark.style.position = "fixed";
+    mark.style.top = 0;
+    mark.style.clip = "rect(0, 0, 0, 0)";
+    mark.style.whiteSpace = "pre";
+    mark.style.webkitUserSelect = "text";
+    mark.style.MozUserSelect = "text";
+    mark.style.msUserSelect = "text";
+    mark.style.userSelect = "text";
+    mark.addEventListener("copy", function(e2) {
+      e2.stopPropagation();
+      if (options.format) {
+        e2.preventDefault();
+        if (typeof e2.clipboardData === "undefined") {
+          debug && console.warn("unable to use e.clipboardData");
+          debug && console.warn("trying IE specific stuff");
+          window.clipboardData.clearData();
+          var format2 = clipboardToIE11Formatting[options.format] || clipboardToIE11Formatting["default"];
+          window.clipboardData.setData(format2, text);
+        } else {
+          e2.clipboardData.clearData();
+          e2.clipboardData.setData(options.format, text);
+        }
+      }
+      if (options.onCopy) {
+        e2.preventDefault();
+        options.onCopy(e2.clipboardData);
+      }
+    });
+    document.body.appendChild(mark);
+    range.selectNodeContents(mark);
+    selection.addRange(range);
+    var successful = document.execCommand("copy");
+    if (!successful) {
+      throw new Error("copy command was unsuccessful");
+    }
+    success = true;
+  } catch (err) {
+    debug && console.error("unable to copy using execCommand: ", err);
+    debug && console.warn("trying IE specific stuff");
+    try {
+      window.clipboardData.setData(options.format || "text", text);
+      options.onCopy && options.onCopy(window.clipboardData);
+      success = true;
+    } catch (err2) {
+      debug && console.error("unable to copy using clipboardData: ", err2);
+      debug && console.error("falling back to prompt");
+      message = format("message" in options ? options.message : defaultMessage);
+      window.prompt(message, text);
+    }
+  } finally {
+    if (selection) {
+      if (typeof selection.removeRange == "function") {
+        selection.removeRange(range);
+      } else {
+        selection.removeAllRanges();
+      }
+    }
+    if (mark) {
+      document.body.removeChild(mark);
+    }
+    reselectPrevious();
+  }
+  return success;
+}
+var copyToClipboard = copy;
+function setupCopyCodeButton() {
+  const timeoutIdMap = /* @__PURE__ */ new Map();
+  window.addEventListener("click", (e2) => {
+    var _a;
+    const el = e2.target;
+    if (el.matches('div[class*="language-"] > button.copy')) {
+      const parent = el.parentElement;
+      const sibling = (_a = el.nextElementSibling) == null ? void 0 : _a.nextElementSibling;
+      if (!parent || !sibling) {
+        return;
+      }
+      const {
+        innerText: text = ""
+      } = sibling;
+      const isCopied = copyToClipboard(text);
+      if (isCopied) {
+        el.classList.add("copied");
+        clearTimeout(timeoutIdMap.get(el));
+        const timeoutId = setTimeout(() => {
+          el.classList.remove("copied");
+          el.blur();
+          timeoutIdMap.delete(el);
+        }, 2e3);
+        timeoutIdMap.set(el, timeoutId);
+      }
+    }
+  });
+}
+const inBrowser = () => typeof window !== "undefined";
+const DEFAULT_NAV_HEIGHT = 56;
+function scrollToTarget(target, isSmooth) {
+  const targetPadding = parseInt(window.getComputedStyle(target).paddingTop, 10);
+  const targetTop = window.scrollY + target.getBoundingClientRect().top - DEFAULT_NAV_HEIGHT + targetPadding;
+  window.scrollTo({
+    left: 0,
+    top: targetTop,
+    ...isSmooth ? {
+      behavior: "smooth"
+    } : {}
+  });
+}
+function bindingWindowScroll() {
+  function scrollTo(el, hash, isSmooth = false) {
+    let target = null;
+    try {
+      target = el.classList.contains("header-anchor") ? el : document.getElementById(decodeURIComponent(hash.slice(1)));
+    } catch (e2) {
+      console.warn(e2);
+    }
+    if (target) {
+      scrollToTarget(target, isSmooth);
+    }
+  }
+  window.addEventListener("click", (e2) => {
+    const link2 = e2.target.closest("a");
+    if (link2) {
+      const {
+        origin,
+        hash,
+        target,
+        pathname,
+        search
+      } = link2;
+      const currentUrl = window.location;
+      if (hash && target !== "_blank" && origin === currentUrl.origin) {
+        if (pathname === currentUrl.pathname && search === currentUrl.search && hash && hash !== currentUrl.hash && link2.classList.contains("header-anchor")) {
+          e2.preventDefault();
+          history.pushState(null, "", hash);
+          scrollTo(link2, hash, true);
+          window.dispatchEvent(new Event("hashchange"));
+        }
+      }
+    }
+  }, {
+    capture: true
+  });
+  window.addEventListener("hashchange", (e2) => {
+    e2.preventDefault();
+  });
+}
+function setup() {
+  if (!inBrowser()) {
+    return;
+  }
+  bindingWindowScroll();
+  setupCopyCodeButton();
+}
 async function renderInBrowser() {
   const containerEl = document.getElementById("root");
   if (!containerEl) {
@@ -833,4 +1091,8 @@ async function renderInBrowser() {
     }
   }
 }
-renderInBrowser();
+renderInBrowser().then(() => {
+  setTimeout(() => {
+    setup();
+  });
+});

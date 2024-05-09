@@ -82,6 +82,7 @@ function _createMdxContent(props) {
     tbody: "tbody",
     td: "td",
     div: "div",
+    button: "button",
     span: "span",
     pre: "pre",
     code: "code",
@@ -211,7 +212,9 @@ function _createMdxContent(props) {
       }), "\u6F0F\u6D1E\u793A\u4F8B\u4EE3\u7801\uFF08\u6F14\u793A\u6574\u6570\u6EA2\u51FA\u6F0F\u6D1E\uFF09\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-c",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "c"
       }), jsx(_components.pre, {
@@ -964,7 +967,9 @@ function _createMdxContent(props) {
       children: "\u4E0B\u9762\u662F\u4E00\u4E2A\u793A\u4F8B\u4EE3\u7801\uFF0C\u6F14\u793A\u4E86\u4E00\u4E2A\u7B80\u5355\u7684\u7F13\u51B2\u533A\u6EA2\u51FA\u6F0F\u6D1E\uFF1A"
     }), "\n", jsxs(_components.div, {
       className: "language-c",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "c"
       }), jsx(_components.pre, {
@@ -1842,7 +1847,9 @@ function _createMdxContent(props) {
           children: "\u4F7F\u7528\u7CFB\u7EDF\u63D0\u4F9B\u7684\u6700\u65B0\u8865\u4E01\u662F\u6700\u6709\u6548\u7684\u4FEE\u590D\u65B9\u5F0F\u4E4B\u4E00\u3002\u901A\u8FC7\u4EE5\u4E0B\u6B65\u9AA4\u53EF\u4EE5\u5E94\u7528\u6700\u65B0\u7684\u5185\u6838\u8865\u4E01\uFF1A"
         }), "\n", jsxs(_components.div, {
           className: "language-bash",
-          children: [jsx(_components.span, {
+          children: [jsx(_components.button, {
+            className: "copy"
+          }), jsx(_components.span, {
             className: "lang",
             children: "bash"
           }), jsx(_components.pre, {
@@ -1898,7 +1905,9 @@ function _createMdxContent(props) {
           children: "\u66F4\u65B0\u5185\u6838\u7248\u672C\u4E5F\u662F\u4E00\u79CD\u5E38\u89C1\u7684\u4FEE\u590D\u6F0F\u6D1E\u7684\u65B9\u6CD5\u3002\u60A8\u53EF\u4EE5\u901A\u8FC7\u4EE5\u4E0B\u65B9\u5F0F\u66F4\u65B0\u5185\u6838\u7248\u672C\uFF1A"
         }), "\n", jsxs(_components.div, {
           className: "language-bash",
-          children: [jsx(_components.span, {
+          children: [jsx(_components.button, {
+            className: "copy"
+          }), jsx(_components.span, {
             className: "lang",
             children: "bash"
           }), jsx(_components.pre, {
@@ -2463,7 +2472,9 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", jsxs(_components.div, {
       className: "language-c",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "c"
       }), jsx(_components.pre, {

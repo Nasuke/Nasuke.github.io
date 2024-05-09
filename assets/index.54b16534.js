@@ -31,6 +31,7 @@ function _createMdxContent(props) {
     h2: "h2",
     img: "img",
     div: "div",
+    button: "button",
     span: "span",
     pre: "pre",
     code: "code",
@@ -96,7 +97,9 @@ function _createMdxContent(props) {
       children: "\u63A5\u4E0B\u6765\u53EF\u4EE5\u8F93\u5165\u5982\u4E0B\u7684\u547D\u4EE4\u521D\u59CB\u5316\u9879\u76EE:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -184,7 +187,9 @@ function _createMdxContent(props) {
       }), " \u6587\u4EF6\u4E2D:"]
     }), "\n", jsxs(_components.div, {
       className: "language-json",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "json"
       }), jsx(_components.pre, {
@@ -387,7 +392,9 @@ function _createMdxContent(props) {
       children: "\u7EC8\u7AEF\u91CC\u9762\u663E\u793A Fresh \u4ECE\u6587\u4EF6\u76EE\u5F55\u4E2D\u626B\u63CF\u51FA\u4E86 3 \u4E2A\u8DEF\u7531\u548C 1 \u4E2A island \u7EC4\u4EF6\uFF0C\u6211\u4EEC\u53EF\u4EE5\u6765\u89C2\u5BDF\u4E00\u4E0B\u9879\u76EE\u7684\u76EE\u5F55\u7ED3\u6784:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -850,7 +857,9 @@ function _createMdxContent(props) {
       }), " \u6587\u4EF6\uFF0C\u8FD9\u4E2A\u6587\u4EF6\u7684\u4F5C\u7528\u662F\u63D0\u4F9B\u670D\u52A1\u7AEF\u7684\u6570\u636E\u63A5\u53E3\uFF0C\u5E76\u4E0D\u627F\u8F7D\u4EFB\u4F55\u7684\u524D\u7AEF\u6E32\u67D3\u903B\u8F91\uFF0C\u4F60\u53EA\u9700\u8981\u5728\u8FD9\u4E2A\u6587\u4EF6\u91CC\u9762\u7F16\u5199\u4E00\u4E2A handler \u51FD\u6570\u5373\u53EF\uFF0C\u5982\u4E0B\u4EE3\u7801\u6240\u793A:"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -1251,7 +1260,9 @@ function _createMdxContent(props) {
       children: "\u540E\u8005\u5219\u4E3A\u52A8\u6001\u8DEF\u7531\uFF0C\u53EF\u4EE5\u62FF\u5230\u8DEF\u7531\u4F20\u53C2\u8FDB\u884C\u6E32\u67D3:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -1435,7 +1446,9 @@ function _createMdxContent(props) {
       children: "\u540C\u65F6\uFF0C\u4F60\u4E5F\u53EF\u4EE5\u5728\u8DEF\u7531\u7EC4\u4EF6\u540C\u65F6\u7F16\u5199\u524D\u7AEF\u7EC4\u4EF6\u548C handler \u51FD\u6570\uFF0C\u5982\u4E0B\u4EE3\u7801\u6240\u793A:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -2144,7 +2157,9 @@ function _createMdxContent(props) {
       }), "\u4E2D:"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -2466,7 +2481,9 @@ function _createMdxContent(props) {
       }), "\u4E3A\u4E00\u4E2A\u5DE5\u5382\u65B9\u6CD5\uFF0C\u76EE\u7684\u662F\u6839\u636E\u4E4B\u524D\u626B\u63CF\u5230\u7684 Manifest \u4FE1\u606F\u751F\u6210\u670D\u52A1\u7AEF\u4E0A\u4E0B\u6587\u5BF9\u8C61(ServerContext)\uFF0C\u56E0\u6B64 Server \u7684\u5B9E\u73B0\u6838\u5FC3\u4E5F\u5C31\u5728\u4E8E ServerContext:"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -2722,7 +2739,9 @@ function _createMdxContent(props) {
       }), "\u4E2D\uFF0C\u4E3B\u8981\u662F\u8FD9\u6BB5\u903B\u8F91:"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -3221,7 +3240,9 @@ function _createMdxContent(props) {
       }), " \u65B9\u6CD5)\u4E2D\uFF0Croute.handler \u7684\u9ED8\u8BA4\u5B9E\u73B0\u4E3A:"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -3856,7 +3877,9 @@ function _createMdxContent(props) {
       children: "\u56E0\u6B64\uFF0C\u5BF9\u4E8E\u8DEF\u7531\u7EC4\u4EF6\u7684\u5904\u7406\u6700\u540E\u90FD\u4F1A\u8FDB\u5165 render \u51FD\u6570\u4E2D\uFF0C\u6211\u4EEC\u4E0D\u59A8\u6765\u770B\u770B render \u51FD\u6570\u662F\u5982\u4F55\u88AB\u521B\u5EFA\u7684:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -4440,7 +4463,9 @@ function _createMdxContent(props) {
       children: "\u751F\u6210 render \u51FD\u6570\u8FD9\u5757\u903B\u8F91\u4E2A\u4EBA\u8BA4\u4E3A\u6BD4\u8F83\u62BD\u8C61\uFF0C\u9700\u8981\u9759\u4E0B\u5FC3\u6765\u7406\u6E05\u5404\u4E2A\u51FD\u6570\u7684\u8C03\u7528\u987A\u5E8F\uFF0C\u7406\u89E3\u96BE\u5EA6\u5E76\u4E0D\u5927\u3002\u6211\u4EEC\u8FD8\u662F\u628A\u5173\u6CE8\u70B9\u653E\u5230\u6838\u5FC3\u7684\u6E32\u67D3\u903B\u8F91\u4E0A\uFF0C\u4E3B\u8981\u662F internalRender \u51FD\u6570\u7684\u5B9E\u73B0:"
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {
@@ -4585,7 +4610,9 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", jsxs(_components.div, {
       className: "language-ts",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "ts"
       }), jsx(_components.pre, {

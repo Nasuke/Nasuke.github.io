@@ -1,6 +1,4 @@
 import { jsx, jsxs, Fragment } from "react/jsx-runtime";
-import Counter from "./Counter.9240fc96.js";
-import "react";
 const frontmatter = void 0;
 const toc = [{
   "id": "\u5BFC\u5165\u9759\u6001\u8D44\u6E90",
@@ -20,6 +18,7 @@ function _createMdxContent(props) {
     p: "p",
     code: "code",
     div: "div",
+    button: "button",
     span: "span",
     pre: "pre",
     ul: "ul",
@@ -33,7 +32,7 @@ function _createMdxContent(props) {
         href: "#\u9759\u6001\u8D44\u6E90\u5904\u7406",
         children: "#"
       }), "\u9759\u6001\u8D44\u6E90\u5904\u7406"]
-    }), "\n", "\n", jsx(Counter, {}), "\n", jsxs(_components.h2, {
+    }), "\n", jsxs(_components.h2, {
       id: "\u5BFC\u5165\u9759\u6001\u8D44\u6E90",
       children: [jsx(_components.a, {
         className: "header-anchor",
@@ -48,7 +47,9 @@ function _createMdxContent(props) {
       }), "\uFF09\u6587\u4EF6\u4E2D\u5BFC\u5165\u9759\u6001\u8D44\u6E90\u3002\u76F8\u5BF9\u8DEF\u5F84\u548C\u7EDD\u5BF9\u8DEF\u5F84\u90FD\u662F\u652F\u6301\u7684\uFF0C\u4F8B\u5982\uFF0C\u5982\u679C\u5728 markdown \u540C\u7EA7\u76EE\u5F55\u6709\u4E00\u5F20\u56FE\u7247\uFF0C\u4F60\u53EF\u4EE5\u50CF\u8FD9\u6837\u5F15\u7528\u5B83\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-mdx",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "mdx"
       }), jsx(_components.pre, {
@@ -87,7 +88,9 @@ function _createMdxContent(props) {
       }), " \u6587\u4EF6\u4E2D\u4F60\u4E5F\u53EF\u4EE5\u76F4\u63A5\u4F7F\u7528 img \u6807\u7B7E\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-mdx",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "mdx"
       }), jsx(_components.pre, {
@@ -173,7 +176,9 @@ function _createMdxContent(props) {
       }), "\uFF0C\u4F60\u53EF\u4EE5\u50CF\u8FD9\u6837\u5F15\u7528\u5B83\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-mdx",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "mdx"
       }), jsx(_components.pre, {
@@ -212,7 +217,9 @@ function _createMdxContent(props) {
       }), "\uFF0C\u4F60\u53EF\u4EE5\u50CF\u8FD9\u6837\u5F15\u7528\u5B83\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-mdx",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "mdx"
       }), jsx(_components.pre, {
@@ -266,7 +273,9 @@ function _createMdxContent(props) {
       children: "\u6BD4\u5982:"
     }), "\n", jsxs(_components.div, {
       className: "language-bash",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "bash"
       }), jsx(_components.pre, {
@@ -312,7 +321,9 @@ function _createMdxContent(props) {
       }), " \u6587\u4EF6\uFF1A"]
     }), "\n", jsxs(_components.div, {
       className: "language-bash",
-      children: [jsx(_components.span, {
+      children: [jsx(_components.button, {
+        className: "copy"
+      }), jsx(_components.span, {
         className: "lang",
         children: "bash"
       }), jsx(_components.pre, {

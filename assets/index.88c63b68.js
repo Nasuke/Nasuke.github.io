@@ -6,7 +6,7 @@ const frontmatter = {
     "text": "\u57FA\u4E8E Vite & MDX \u8BED\u6CD5\u7684\u9759\u6001\u7AD9\u70B9\u751F\u6210\u5668",
     "tagline": "\u7B80\u5355\u3001\u5F3A\u5927\u3001\u9AD8\u6027\u80FD\u7684\u73B0\u4EE3\u5316 SSG \u65B9\u6848",
     "image": {
-      "src": "nasuke.png",
+      "src": "avatar.png",
       "alt": "Island"
     },
     "actions": [{

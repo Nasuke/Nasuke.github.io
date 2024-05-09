@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="referrer" content="never">
+    <title data-rh="true">6. 实例与经验分析</title>
+    
+    
+    
+    <meta name="description" content="xxx">
+    <link rel="stylesheet" href="/assets/play.3ff3c1c4.css">
+<link rel="stylesheet" href="/assets/client-entry.45ac381e.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "/react.js","react-dom": "/react-dom.js","react-dom/client": "/react-dom_client.js","react/jsx-runtime": "/react_jsx-runtime.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"><div><header fixed="~" pos="t-0 l-0" w="full" z="10"><div flex="~" items="center" justify="between" class="h-14 divider-bottom _nav_1qmqp_22"><div><a href="/" hover="opacity-60" class="w-full h-full text-1rem font-semibold flex items-center">Nasuke.js</a></div><div flex="~"><div flex="~"><div class="text-sm font-medium mx-3"><a href="/" class="_link_1qmqp_1">主页</a></div><div class="text-sm font-medium mx-3"><a href="/guide/" class="_link_1qmqp_1">指南</a></div><div class="text-sm font-medium mx-3"><a href="/aigc/" class="_link_1qmqp_1">AI专栏</a></div></div><div before="menu-item-before" flex="~"><div __island="SwitchAppearance:0"><button class="_switch_8m5r4_1 undefined" id="" type="button" role="switch"><span class="_check_8m5r4_17"><span class="_icon_8m5r4_34"><div class="_sun_8m5r4_57"><div class="i-carbon-sun" w="full" h="full"></div></div><div class="_moon_8m5r4_61"><div class="i-carbon-moon" w="full" h="full"></div></div></span></span></button></div></div><div class="_social-link-icon_1qmqp_12" before="menu-item-before"><a href="https://github.com/Nasuke/nasuke-ssg"><div class="i-carbon-logo-github w-5 h-5 fill-current"></div></a></div></div></div></header><section style="padding-top:var(--nasuke-nav-height)"><div p="t-0 x-6 b-24 sm:6" class="_docLayout_aof7m_8"><aside class="_sidebar_1q5rk_1"><nav><section block="~" not-first="divider-top mt-4"><div flex="~" justify="between" items="center"><h2 m="t-3 b-2" text="1rem text-1" font="bold">mysql连接相关</h2></div><div mb="1"><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/1" target="" class="_link_kjpgb_1 ">idea连接mysql数据库常见问题</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/2" target="" class="_link_kjpgb_1 ">idea登录问题</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/3" target="" class="_link_kjpgb_1 ">idea连接问题</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/4" target="" class="_link_kjpgb_1 ">深度排查连接错误</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/5" target="" class="_link_kjpgb_1 ">加速MySQL连接速度</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/6" target="" class="_link_kjpgb_1 ">SSH隧道连</a></div></div></div></div></section><section block="~" not-first="divider-top mt-4"><div flex="~" justify="between" items="center"><h2 m="t-3 b-2" text="1rem text-1" font="bold">mysql基础知识及常见问题</h2></div><div mb="1"><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/11" target="" class="_link_kjpgb_1 ">初探数据库魔法操作</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/22" target="" class="_link_kjpgb_1 ">MySQL数据库创建常见误区</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/33" target="" class="_link_kjpgb_1 ">数据类型选择技巧</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/44" target="" class="_link_kjpgb_1 ">MySQL索引创造法宝</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/55" target="" class="_link_kjpgb_1 ">MySQL表结构设计陷阱</a></div></div></div><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/66" target="" class="_link_kjpgb_1 ">完美数据约束与完整性</a></div></div></div></div></section><section block="~" not-first="divider-top mt-4"><div flex="~" justify="between" items="center"><h2 m="t-3 b-2" text="1rem text-1" font="bold">Linux相关</h2></div><div mb="1"><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/1a" target="" class="_link_kjpgb_1 ">Linux内核漏洞开发修复</a></div></div></div></div></section><section block="~" not-first="divider-top mt-4"><div flex="~" justify="between" items="center"><h2 m="t-3 b-2" text="1rem text-1" font="bold">人工智能相关</h2></div><div mb="1"><div><div ml="5"><div p="1" block="~" text="sm" font-medium="~" class="text-text-2"><a href="/aigc/2a" target="" class="_link_kjpgb_1 ">文本生成介绍</a></div></div></div></div></section></nav></aside><div class="_content_aof7m_2" flex="~ 1 shrink-0" m="x-auto"><div m="x-auto" flex="~ col" class="max-w-100%"><div relative="~" m="x-auto" p="l-2" class="w-100% md:max-w-712px lg:min-w-640px"><div class="nasuke-doc"><p><img src="https://img-blog.csdnimg.cn/cd527e6b2b024d89ba68990769d7139a.png" alt="mysql数据库分析常见问题与详细解决操作"/></p>
+<h1 id="1-mysql查询优化概述"><a class="header-anchor" href="#1-mysql查询优化概述">#</a>1. MySQL查询优化概述</h1>
+<p>在MySQL数据库的使用过程中，查询优化是非常重要的一环。通过对查询语句和数据库结构的优化，可以显著提升查询性能，减少系统资源的占用，以及提高用户体验。本章将从MySQL查询优化的概念入手，介绍为什么需要进行查询优化以及优化带来的好处。我们将深入探讨查询优化的目标是什么，以及如何灵活运用不同的调用技巧，有效提高数据库的查询效率。</p>
+<p>通过本章内容的阐述，读者将对MySQL查询优化有个整体的认识，为后续学习更具体的查询优化技巧奠定基础。</p>
+<h1 id="21-mysql查询执行计划基础概念"><a class="header-anchor" href="#21-mysql查询执行计划基础概念">#</a>2.1 MySQL查询执行计划基础概念</h1>
+<p>在MySQL数据库优化中，查询执行计划是非常重要的概念之一。通过深入理解查询执行计划，可以帮助我们分析查询语句的执行效率，找出潜在的性能瓶颈，进而进行有针对性的优化。</p>
+<h3 id="211-什么是查询执行计划"><a class="header-anchor" href="#211-什么是查询执行计划">#</a>2.1.1 什么是查询执行计划</h3>
+<p>查询执行计划是指数据库在执行查询语句时生成的执行路线图，它展示了数据库是如何访问表中的数据以获取查询结果的。通过查看查询执行计划，可以了解数据库系统是如何执行查询的，包括表的访问顺序、使用的索引、连接方式等信息。</p>
+<h3 id="212-如何查看查询执行计划"><a class="header-anchor" href="#212-如何查看查询执行计划">#</a>2.1.2 如何查看查询执行计划</h3>
+<p>在MySQL中，我们可以使用<code>EXPLAIN</code>关键字来查看查询执行计划。通过在查询语句前加上<code>EXPLAIN</code>关键字，MySQL会解释该查询的执行计划，并返回一组描述查询执行的信息。这对于分析查询性能和优化查询语句非常有帮助。</p>
+<p>下面是一个简单的示例，演示如何查看查询执行计划：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#D8DEE9FF">EXPLAIN </span><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">*</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> users </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> age </span><span style="color:#81A1C1">&gt;</span><span style="color:#D8DEE9FF"> </span><span style="color:#B48EAD">30</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<p>通过以上命令，我们可以获得关于该查询执行计划的详细信息，包括表的读取顺序、使用的索引、可能的全表扫描等内容。理解并分析这些信息将有助于我们优化查询语句，提升查询效率。</p>
+<p>在下一节中，我们将深入探讨MySQL查询优化器的工作原理，了解优化器的选择策略以及影响查询性能的关键算法。继续往下阅读，让我们一起探究更多关于MySQL查询的奥秘。</p>
+<h1 id="3-索引优化及使用技巧"><a class="header-anchor" href="#3-索引优化及使用技巧">#</a>3. 索引优化及使用技巧</h1>
+<h3 id="31-索引的类型及创建方法"><a class="header-anchor" href="#31-索引的类型及创建方法">#</a>3.1 索引的类型及创建方法</h3>
+<p>在数据库中，索引被用来提高查询速度，使得查询操作更为高效。下面我们将介绍几种常见的索引类型以及它们的创建方法。</p>
+<h4 id="311-b-tree索引"><a class="header-anchor" href="#311-b-tree索引">#</a>3.1.1 B-tree索引</h4>
+<p>B-tree索引是MySQL中最常见的索引类型之一，它适用于等值查询、范围查询和排序。下面是创建B-tree索引的基本语法：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> index_name </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name (column_name);</span></span>
+<span class="line"></span></code></pre></div>
+<p>其中，<code>index_name</code>为索引名称，<code>table_name</code>为表名，<code>column_name</code>为需要创建索引的列名。</p>
+<h4 id="312-哈希索引"><a class="header-anchor" href="#312-哈希索引">#</a>3.1.2 哈希索引</h4>
+<p>哈希索引适用于等值查询，但不适用于范围查询和排序。创建哈希索引的方法如下：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> index_name </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name (column_name) </span><span style="color:#81A1C1">USING</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">HASH</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="313-全文索引"><a class="header-anchor" href="#313-全文索引">#</a>3.1.3 全文索引</h4>
+<p>全文索引主要用于全文检索，可以在文本列上进行高效的搜索。创建全文索引的语法如下：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">FULLTEXT</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> index_name </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name (column_name);</span></span>
+<span class="line"></span></code></pre></div>
+<h3 id="32-索引的最佳实践"><a class="header-anchor" href="#32-索引的最佳实践">#</a>3.2 索引的最佳实践</h3>
+<p>在使用索引时，需要注意以下最佳实践，以确保索引的有效利用和查询性能的提升。</p>
+<h4 id="321-如何选择正确的索引"><a class="header-anchor" href="#321-如何选择正确的索引">#</a>3.2.1 如何选择正确的索引</h4>
+<ul>
+<li>根据查询需求选择合适的索引类型。</li>
+<li>综合考虑查询频率、数据唯一性、数据量等因素进行索引选择。</li>
+<li>避免创建过多索引，避免索引冗余。</li>
+</ul>
+<h4 id="322-索引的优化技巧"><a class="header-anchor" href="#322-索引的优化技巧">#</a>3.2.2 索引的优化技巧</h4>
+<ul>
+<li>定期对索引进行维护和优化，删除不必要的索引。</li>
+<li>使用覆盖索引以减少磁盘IO操作。</li>
+<li>对复合索引进行正确的排序以提高查询效率。</li>
+</ul>
+<h4 id="323-索引相关的最佳实践"><a class="header-anchor" href="#323-索引相关的最佳实践">#</a>3.2.3 索引相关的最佳实践</h4>
+<ul>
+<li>避免在查询中对索引列进行函数操作。</li>
+<li>注意长字段和变长字段的索引使用。</li>
+<li>在添加索引前进行查询性能评估，确保索引的必要性和有效性。</li>
+</ul>
+<p>通过理解不同索引类型的特点以及最佳实践方法，可以更好地优化数据库的索引设计，并提升查询性能和系统的整体性能。</p>
+<h1 id="4-sql语句优化技巧"><a class="header-anchor" href="#4-sql语句优化技巧">#</a>4. SQL语句优化技巧</h1>
+<h3 id="41-sql语句写作规范"><a class="header-anchor" href="#41-sql语句写作规范">#</a>4.1 SQL语句写作规范</h3>
+<p>SQL语句的书写风格和优化原则对于提升查询性能起着至关重要的作用。以下是一些值得注意的地方：</p>
+<h4 id="411-sql语句的书写风格"><a class="header-anchor" href="#411-sql语句的书写风格">#</a>4.1.1 SQL语句的书写风格</h4>
+<p>在编写SQL语句时，应该遵循一定的书写规范，以提高可读性和维护性。以下是一些建议的书写风格：</p>
+<ul>
+<li>使用关键字大写，表名、列名小写，以增加可读性。</li>
+<li>使用缩进和换行来使SQL语句结构清晰。</li>
+<li>为SQL语句中的关键部分添加注释，解释查询意图和逻辑。</li>
+<li>避免使用SELECT *，而是明确列出需要的字段，以减少不必要的数据读取。</li>
+</ul>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#616E88">-- 例：SQL查询语句书写示例</span></span>
+<span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    column1, column2</span></span>
+<span class="line"><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    </span><span style="color:#81A1C1">table</span></span>
+<span class="line"><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    condition;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="412-sql语句的优化原则"><a class="header-anchor" href="#412-sql语句的优化原则">#</a>4.1.2 SQL语句的优化原则</h4>
+<p>SQL语句的优化原则是确保查询性能最佳的关键。以下是一些建议的优化原则：</p>
+<ul>
+<li>避免在查询中使用函数，因为函数会使索引失效，影响查询性能。</li>
+<li>使用合适的数据类型，避免在WHERE条件中对字段进行类型转换。</li>
+<li>尽量避免在WHERE条件中使用LIKE &#x27;%value%&#x27;，这种模糊查询会导致全表扫描，影响性能。</li>
+<li>谨慎使用子查询，可以尝试使用JOIN来提高查询效率。</li>
+</ul>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#616E88">-- 例：SQL查询优化原则应用</span></span>
+<span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    column1, column2</span></span>
+<span class="line"><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    </span><span style="color:#81A1C1">table</span></span>
+<span class="line"><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    indexed_column </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">value</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<h3 id="42-避免全表扫描的方法"><a class="header-anchor" href="#42-避免全表扫描的方法">#</a>4.2 避免全表扫描的方法</h3>
+<p>避免全表扫描是SQL优化中的核心内容。通过合理地利用索引来优化查询，可以大大提高查询效率。</p>
+<h4 id="421-利用索引优化查询"><a class="header-anchor" href="#421-利用索引优化查询">#</a>4.2.1 利用索引优化查询</h4>
+<p>索引是MySQL中提高查询性能的重要工具。通过在查询字段上创建索引，可以使查询更高效。使用<code>EXPLAIN</code>命令可以查看MySQL执行计划中是否使用了索引。</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#616E88">-- 例：创建索引示例</span></span>
+<span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> idx_name </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name(column_name);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#616E88">-- 优化查询示例</span></span>
+<span class="line"><span style="color:#D8DEE9FF">EXPLAIN </span><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> column1, column2 </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> table_name </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> indexed_column </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">value</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="422-使用覆盖索引提高性能"><a class="header-anchor" href="#422-使用覆盖索引提高性能">#</a>4.2.2 使用覆盖索引提高性能</h4>
+<p>覆盖索引是指查询的列包含在索引内，避免了MySQL需要回表查询的情况，从而提高查询效率。在设计表结构时，可以考虑使用覆盖索引来优化查询性能。</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#616E88">-- 例：覆盖索引应用示例</span></span>
+<span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> idx_cover </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name(column_name1, column_name2);</span></span>
+<span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> column_name1, column_name2 </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> table_name </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> indexed_column </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">value</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="423-充分利用索引列的顺序"><a class="header-anchor" href="#423-充分利用索引列的顺序">#</a>4.2.3 充分利用索引列的顺序</h4>
+<p>索引列的顺序也会影响查询性能。在创建复合索引时，应该合理选择索引列的顺序，将经常作为查询条件的列放在前面，以提高查询效率。</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#616E88">-- 例：复合索引列顺序选择示例</span></span>
+<span class="line"><span style="color:#81A1C1">CREATE</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">INDEX</span><span style="color:#D8DEE9FF"> idx_order </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> table_name(column_name1, column_name2);</span></span>
+<span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> column_name1, column_name2 </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> table_name </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> column_name1 </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> value1 </span><span style="color:#81A1C1">AND</span><span style="color:#D8DEE9FF"> column_name2 </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> value2;</span></span>
+<span class="line"></span></code></pre></div>
+<p>通过以上SQL语句优化技巧，可以有效地提升MySQL查询的性能，避免全表扫描，充分利用索引以及优化SQL语句的写作规范和原则。不仅可以提高查询效率，还可以降低系统资源的消耗。</p>
+<h1 id="5-高级优化技巧与工具使用"><a class="header-anchor" href="#5-高级优化技巧与工具使用">#</a>5. 高级优化技巧与工具使用</h1>
+<p>MySQL查询优化是数据库性能调优中至关重要的一环，而使用适当的工具进行分析则可以事半功倍。本章将介绍一些高级的优化技巧以及常用工具的使用方法，帮助读者更深入地理解和应用MySQL查询优化。</p>
+<h3 id="51-慢查询日志的设置与分析"><a class="header-anchor" href="#51-慢查询日志的设置与分析">#</a>5.1 慢查询日志的设置与分析</h3>
+<p>慢查询日志是MySQL提供的一种日志记录功能，能够帮助我们找出执行时间超过阈值的查询语句，从而找出可能存在的性能瓶颈。以下是如何设置和分析慢查询日志的步骤：</p>
+<h4 id="511-如何开启慢查询日志"><a class="header-anchor" href="#511-如何开启慢查询日志">#</a>5.1.1 如何开启慢查询日志</h4>
+<p>在MySQL配置文件中，找到并修改以下参数：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#D8DEE9FF">slow_query_log </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">ON</span></span>
+<span class="line"><span style="color:#D8DEE9FF">long_query_time </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#B48EAD">1</span></span>
+<span class="line"><span style="color:#D8DEE9FF">log_output </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">FILE</span></span>
+<span class="line"><span style="color:#D8DEE9FF">slow_query_log_file </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">/</span><span style="color:#88C0D0">var</span><span style="color:#81A1C1">/</span><span style="color:#88C0D0">log</span><span style="color:#81A1C1">/</span><span style="color:#D8DEE9FF">mysql</span><span style="color:#81A1C1">/</span><span style="color:#D8DEE9FF">mysql</span><span style="color:#81A1C1">-</span><span style="color:#D8DEE9FF">slow.log</span></span>
+<span class="line"></span></code></pre></div>
+<p>这里我们设置<code>long_query_time = 1</code>，表示查询时间超过1秒的语句将被记录在慢查询日志中。</p>
+<h4 id="512-通过慢查询日志找出性能瓶颈"><a class="header-anchor" href="#512-通过慢查询日志找出性能瓶颈">#</a>5.1.2 通过慢查询日志找出性能瓶颈</h4>
+<p>通过分析慢查询日志，我们可以发现哪些SQL语句执行较慢，然后针对这些语句进行优化。可以通过以下SQL语句查看慢查询日志中的内容：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">*</span><span style="color:#D8DEE9FF"> </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> mysql.slow_log;</span></span>
+<span class="line"></span></code></pre></div>
+<p>根据慢查询日志中的信息，我们可以找出潜在的性能问题，并针对性地进行优化。</p>
+<h3 id="52-explain工具解读"><a class="header-anchor" href="#52-explain工具解读">#</a>5.2 Explain工具解读</h3>
+<p>Explain是MySQL提供的用于显示查询执行计划的工具，通过分析执行计划，我们可以更好地了解查询的执行流程和涉及的索引情况，从而进行优化。以下是Explain工具的使用方法和一些常见误区的解决方案：</p>
+<h4 id="521-explain输出的含义"><a class="header-anchor" href="#521-explain输出的含义">#</a>5.2.1 Explain输出的含义</h4>
+<p>Explain输出的各列代表不同的信息，如id、select_type、table、type、possible_keys、key、rows等，通过这些信息可以分析查询语句的执行计划。</p>
+<h4 id="522-如何使用explain进行查询优化"><a class="header-anchor" href="#522-如何使用explain进行查询优化">#</a>5.2.2 如何使用Explain进行查询优化</h4>
+<p>通过Explain可以查看查询是否使用了索引，以及使用了哪种类型的索引，通过分析执行计划可以找到潜在的性能瓶颈，并进行相应优化。</p>
+<h4 id="523-explain解读中的常见误区"><a class="header-anchor" href="#523-explain解读中的常见误区">#</a>5.2.3 Explain解读中的常见误区</h4>
+<p>在解读Explain输出时，很容易出现误解，比如认为rows值越大性能越差，实际上这并不一定成立，需要结合其他信息进行分析。</p>
+<p>通过深入理解Explain的输出和慢查询日志分析，我们可以更好地优化查询语句，提升MySQL数据库的性能。在实际应用中，结合工具分析和自身经验，能够更好地应对各种复杂的查询场景。</p>
+<h1 id="6-实例与经验分析"><a class="header-anchor" href="#6-实例与经验分析">#</a>6. 实例与经验分析</h1>
+<h3 id="61-实例分析优化具体查询案例"><a class="header-anchor" href="#61-实例分析优化具体查询案例">#</a>6.1 实例分析：优化具体查询案例</h3>
+<p>在实际工作中，经常会遇到需要优化特定查询的情况。通过具体案例分析，我们可以深入了解优化的具体步骤和效果，并通过实例展示优化前后的对比。</p>
+<h4 id="611-场景描述"><a class="header-anchor" href="#611-场景描述">#</a>6.1.1 场景描述</h4>
+<p>假设我们有一个电商平台的订单表，结构如下：</p>
+<table><thead><tr><th>订单ID</th><th>用户ID</th><th>订单金额</th><th>下单时间</th></tr></thead><tbody><tr><td>1</td><td>101</td><td>99.9</td><td>2022-01-01 10:00:00</td></tr><tr><td>2</td><td>102</td><td>120.5</td><td>2022-01-02 11:30:00</td></tr><tr><td>3</td><td>103</td><td>50.0</td><td>2022-01-03 09:45:00</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>
+<p>我们现在需要查询某个用户的订单金额总和，以及该用户的订单数量。</p>
+<h4 id="612-优化前查询语句"><a class="header-anchor" href="#612-优化前查询语句">#</a>6.1.2 优化前查询语句</h4>
+<p>首先，我们先来看一下未经优化的查询语句，该语句使用了子查询的方式实现功能：</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    u.user_id,</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    (</span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            </span><span style="color:#88C0D0">SUM</span><span style="color:#D8DEE9FF">(o.order_amount) </span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            orders o </span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            o.user_id </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> u.user_id</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    ) </span><span style="color:#81A1C1">AS</span><span style="color:#D8DEE9FF"> total_amount,</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    (</span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            </span><span style="color:#88C0D0">COUNT</span><span style="color:#D8DEE9FF">(o.order_id) </span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            orders o </span></span>
+<span class="line"><span style="color:#D8DEE9FF">        </span><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">            o.user_id </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> u.user_id</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    ) </span><span style="color:#81A1C1">AS</span><span style="color:#D8DEE9FF"> order_count</span></span>
+<span class="line"><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    users u</span></span>
+<span class="line"><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    u.user_id </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#B48EAD">101</span><span style="color:#D8DEE9FF">;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="613-优化后查询语句"><a class="header-anchor" href="#613-优化后查询语句">#</a>6.1.3 优化后查询语句</h4>
+<p>经过优化后，我们可以通过联表查询的方式避免多次子查询，提高查询效率。</p>
+<div class="language-sql"><button class="copy"></button><span class="lang">sql</span><pre class="shiki" style="background-color:#2e3440ff"><code><span class="line"><span style="color:#81A1C1">SELECT</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    u.user_id,</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    </span><span style="color:#88C0D0">SUM</span><span style="color:#D8DEE9FF">(o.order_amount) </span><span style="color:#81A1C1">AS</span><span style="color:#D8DEE9FF"> total_amount,</span></span>
+<span class="line"><span style="color:#D8DEE9FF">    </span><span style="color:#88C0D0">COUNT</span><span style="color:#D8DEE9FF">(o.order_id) </span><span style="color:#81A1C1">AS</span><span style="color:#D8DEE9FF"> order_count</span></span>
+<span class="line"><span style="color:#81A1C1">FROM</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    users u</span></span>
+<span class="line"><span style="color:#81A1C1">JOIN</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    orders o </span><span style="color:#81A1C1">ON</span><span style="color:#D8DEE9FF"> u.user_id </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> o.user_id</span></span>
+<span class="line"><span style="color:#81A1C1">WHERE</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    u.user_id </span><span style="color:#81A1C1">=</span><span style="color:#D8DEE9FF"> </span><span style="color:#B48EAD">101</span></span>
+<span class="line"><span style="color:#81A1C1">GROUP BY</span><span style="color:#D8DEE9FF"> </span></span>
+<span class="line"><span style="color:#D8DEE9FF">    u.user_id;</span></span>
+<span class="line"></span></code></pre></div>
+<h4 id="614-代码逻辑说明"><a class="header-anchor" href="#614-代码逻辑说明">#</a>6.1.4 代码逻辑说明</h4>
+<p>在优化前的查询语句中，通过两次子查询分别计算了用户的订单金额总和和订单数量，导致了重复读取数据和低效率的问题。而在优化后的查询语句中，通过联表查询的方式将两次查询合并为一次，避免了重复查询，提升了查询效率。</p>
+<h4 id="615-代码运行结果"><a class="header-anchor" href="#615-代码运行结果">#</a>6.1.5 代码运行结果</h4>
+<p>运行优化前查询语句和优化后查询语句后，可以对比查询时间和性能的差异，从而验证优化效果。</p>
+<p>通过以上实例分析，我们可以清晰地看到优化查询的重要性和优化方法，希木能够帮助读者更好地理解MySQL查询优化的实际操作过程。</p>
+<h3 id="62-经验总结mysql查询优化实践中的注意事项"><a class="header-anchor" href="#62-经验总结mysql查询优化实践中的注意事项">#</a>6.2 经验总结：MySQL查询优化实践中的注意事项</h3>
+<p>在实践过程中，除了具体的查询案例，还需要总结一些经验和注意事项，以便在今后的优化过程中能够更加得心应手。</p>
+<h4 id="621-充分利用索引"><a class="header-anchor" href="#621-充分利用索引">#</a>6.2.1 充分利用索引</h4>
+<p>在进行查询优化时，索引是非常重要的。一定要充分利用索引来加快查询的速度，特别是对于经常被查询的列加上索引，避免全表扫描。</p>
+<h4 id="622-避免过多的关联"><a class="header-anchor" href="#622-避免过多的关联">#</a>6.2.2 避免过多的关联</h4>
+<p>在设计数据库表结构时，要注意避免过多的表关联。过多的关联会导致查询变慢，尽量将关联字段设计为索引，减少关联带来的性能损耗。</p>
+<h4 id="623-定期优化数据库"><a class="header-anchor" href="#623-定期优化数据库">#</a>6.2.3 定期优化数据库</h4>
+<p>定期对数据库进行优化和维护，包括索引重建、统计信息更新等，以保证数据库的高性能和稳定性，减少查询的时间消耗。</p>
+<h3 id="63-盲点分析常见的mysql查询优化误区"><a class="header-anchor" href="#63-盲点分析常见的mysql查询优化误区">#</a>6.3 盲点分析：常见的MySQL查询优化误区</h3>
+<p>在实际的查询优化中，有一些常见的误区需要引起注意，避免走进误区，浪费时间和精力。</p>
+<h4 id="631-过度索引"><a class="header-anchor" href="#631-过度索引">#</a>6.3.1 过度索引</h4>
+<p>有时候为了提升查询速度，会出现过度添加索引的情况。过多的索引不仅会增加写操作的时间开销，还可能导致查询性能反而降低，需要根据实际情况合理添加索引。</p>
+<h4 id="632-忽略sql语句的性能"><a class="header-anchor" href="#632-忽略sql语句的性能">#</a>6.3.2 忽略SQL语句的性能</h4>
+<p>有些开发者可能只关注功能实现，对SQL语句的性能却忽视了。一个高效的SQL语句往往能够极大提升整个系统的性能，因此在编写和优化SQL语句时一定要重视性能问题。</p>
+<h4 id="633-缺乏整体规划"><a class="header-anchor" href="#633-缺乏整体规划">#</a>6.3.3 缺乏整体规划</h4>
+<p>有时候针对单一查询进行优化可能并不能带来显著的性能提升。缺乏整体的数据库结构规划和优化可能限制了整体性能的提升，因此在进行查询优化时要有全局观念。</p>
+<p>在MySQL查询优化实践中要注意避免这些常见的误区，从而更好地提升查询性能和效率。</p>
+<p>这一章节通过实例分析、经验总结和盲点分析，帮助读者更深入地了解MySQL查询优化的实践方法和注意事项，达到提升查询性能的目的。</p></div><footer mt="8"><div flex="~" gap="2" divider-top="~" pt="6"><div flex="~ col" class="_prev_kdbcv_1"></div><div flex="~ col" class="_next_kdbcv_2"><a href="/guide/a" class="_pager-link_kdbcv_6 _next_kdbcv_2"><span class="_desc_kdbcv_29">下一页</span><span class="_title_kdbcv_20">MPA VS SPA</span></a></div></div></footer></div></div><div relative="~" display="none lg:block" order="2" flex="1" p="l-8" class="max-w-256px"><div class="_aside-container_aof7m_32"><div flex="~ col" p="b-8" style="min-height:calc(100vh - (var(--island-nav-height-desktop) + 32px))"><div __island="Aside:1"><div flex="~ col 1" style="width:var(--nasuke-aside-width)"><div><div id="aside-container" class="relative divider-left pl-4 text-13px font-medium"><div id="aside-marker" class="absolute top-33px opacity-0 w-1px h-18px bg-brand" style="left:-1px;transition:top 0.25s cubic-bezier(0, 1, 0.5, 1), background-color 0.5s, opacity 0.25s"></div><div leading-7="~" text="13px" font="semibold">ON THIS PAGE</div><nav><ul relative="~"><li><a href="#211-什么是查询执行计划" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">2.1.1 什么是查询执行计划</a></li><li><a href="#212-如何查看查询执行计划" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">2.1.2 如何查看查询执行计划</a></li><li><a href="#31-索引的类型及创建方法" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">3.1 索引的类型及创建方法</a></li><li><a href="#311-b-tree索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.1.1 B-tree索引</a></li><li><a href="#312-哈希索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.1.2 哈希索引</a></li><li><a href="#313-全文索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.1.3 全文索引</a></li><li><a href="#32-索引的最佳实践" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">3.2 索引的最佳实践</a></li><li><a href="#321-如何选择正确的索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.2.1 如何选择正确的索引</a></li><li><a href="#322-索引的优化技巧" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.2.2 索引的优化技巧</a></li><li><a href="#323-索引相关的最佳实践" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">3.2.3 索引相关的最佳实践</a></li><li><a href="#41-sql语句写作规范" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">4.1 SQL语句写作规范</a></li><li><a href="#411-sql语句的书写风格" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">4.1.1 SQL语句的书写风格</a></li><li><a href="#412-sql语句的优化原则" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">4.1.2 SQL语句的优化原则</a></li><li><a href="#42-避免全表扫描的方法" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">4.2 避免全表扫描的方法</a></li><li><a href="#421-利用索引优化查询" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">4.2.1 利用索引优化查询</a></li><li><a href="#422-使用覆盖索引提高性能" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">4.2.2 使用覆盖索引提高性能</a></li><li><a href="#423-充分利用索引列的顺序" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">4.2.3 充分利用索引列的顺序</a></li><li><a href="#51-慢查询日志的设置与分析" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">5.1 慢查询日志的设置与分析</a></li><li><a href="#511-如何开启慢查询日志" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">5.1.1 如何开启慢查询日志</a></li><li><a href="#512-通过慢查询日志找出性能瓶颈" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">5.1.2 通过慢查询日志找出性能瓶颈</a></li><li><a href="#52-explain工具解读" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">5.2 Explain工具解读</a></li><li><a href="#521-explain输出的含义" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">5.2.1 Explain输出的含义</a></li><li><a href="#522-如何使用explain进行查询优化" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">5.2.2 如何使用Explain进行查询优化</a></li><li><a href="#523-explain解读中的常见误区" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">5.2.3 Explain解读中的常见误区</a></li><li><a href="#61-实例分析优化具体查询案例" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">6.1 实例分析：优化具体查询案例</a></li><li><a href="#611-场景描述" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.1.1 场景描述</a></li><li><a href="#612-优化前查询语句" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.1.2 优化前查询语句</a></li><li><a href="#613-优化后查询语句" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.1.3 优化后查询语句</a></li><li><a href="#614-代码逻辑说明" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.1.4 代码逻辑说明</a></li><li><a href="#615-代码运行结果" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.1.5 代码运行结果</a></li><li><a href="#62-经验总结mysql查询优化实践中的注意事项" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">6.2 经验总结：MySQL查询优化实践中的注意事项</a></li><li><a href="#621-充分利用索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.2.1 充分利用索引</a></li><li><a href="#622-避免过多的关联" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.2.2 避免过多的关联</a></li><li><a href="#623-定期优化数据库" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.2.3 定期优化数据库</a></li><li><a href="#63-盲点分析常见的mysql查询优化误区" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:12px">6.3 盲点分析：常见的MySQL查询优化误区</a></li><li><a href="#631-过度索引" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.3.1 过度索引</a></li><li><a href="#632-忽略sql语句的性能" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.3.2 忽略SQL语句的性能</a></li><li><a href="#633-缺乏整体规划" class="block leading-7 text-text-2 hover:text-text-1" transition="color duration-300" style="padding-left:24px">6.3.3 缺乏整体规划</a></li></ul></nav></div></div></div></div></div></div></div></div></div></section></div></div>
+    <script type="module">import{jsxs as P,jsx as s}from"react/jsx-runtime";import{useState as U,useEffect as B,useRef as Y}from"react";const q="_check_8m5r4_17",X="_icon_8m5r4_34",z="_dark_8m5r4_29",J="_sun_8m5r4_57",K="_moon_8m5r4_61",v={switch:"_switch_8m5r4_1",check:q,icon:X,dark:z,sun:J,moon:K},I="appearance",A=(e=!1)=>{const t=document.documentElement.classList;e?t.add("dark"):t.remove("dark")},L=()=>{const e=localStorage.getItem(I);A(e==="dark")};typeof window<"u"&&typeof localStorage<"u"&&(L(),window.addEventListener("storage",L));function V(){document.documentElement.classList.contains("dark")?(A(!1),localStorage.setItem(I,"light")):(A(!0),localStorage.setItem(I,"dark"))}function Q(e){var t;return s("button",{className:`${v.switch} ${e.className}`,id:(t=e.id)!=null?t:"",type:"button",role:"switch",...e.onClick?{onClick:e.onClick}:{},children:s("span",{className:v.check,children:s("span",{className:v.icon,children:e.children})})})}function Z(e){return P(Q,{onClick:V,children:[s("div",{className:v.sun,children:s("div",{className:"i-carbon-sun",w:"full",h:"full"})}),s("div",{className:v.moon,children:s("div",{className:"i-carbon-moon",w:"full",h:"full"})})]})}var ee=typeof global=="object"&&global&&global.Object===Object&&global;const te=ee;var ne=typeof self=="object"&&self&&self.Object===Object&&self,re=te||ne||Function("return this")();const H=re;var ie=H.Symbol;const k=ie;var W=Object.prototype,oe=W.hasOwnProperty,ce=W.toString,y=k?k.toStringTag:void 0;function ae(e){var t=oe.call(e,y),r=e[y];try{e[y]=void 0;var i=!0}catch{}var l=ce.call(e);return i&&(t?e[y]=r:delete e[y]),l}var se=Object.prototype,le=se.toString;function de(e){return le.call(e)}var fe="[object Null]",ue="[object Undefined]",$=k?k.toStringTag:void 0;function me(e){return e==null?e===void 0?ue:fe:$&&$ in Object(e)?ae(e):de(e)}function ge(e){return e!=null&&typeof e=="object"}var he="[object Symbol]";function pe(e){return typeof e=="symbol"||ge(e)&&me(e)==he}var be=/\s/;function ye(e){for(var t=e.length;t--&&be.test(e.charAt(t)););return t}var ve=/^\s+/;function Te(e){return e&&e.slice(0,ye(e)+1).replace(ve,"")}function w(e){var t=typeof e;return e!=null&&(t=="object"||t=="function")}var C=0/0,ke=/^[-+]0x[0-9a-f]+$/i,we=/^0b[01]+$/i,Se=/^0o[0-7]+$/i,xe=parseInt;function R(e){if(typeof e=="number")return e;if(pe(e))return C;if(w(e)){var t=typeof e.valueOf=="function"?e.valueOf():e;e=w(t)?t+"":t}if(typeof e!="string")return e===0?e:+e;e=Te(e);var r=we.test(e);return r||Se.test(e)?xe(e.slice(2),r?2:8):ke.test(e)?C:+e}var Ee=function(){return H.Date.now()};const E=Ee;var Ie="Expected a function",Ae=Math.max,Ne=Math.min;function _e(e,t,r){var i,l,d,o,n,a,f=0,g=!1,u=!1,p=!0;if(typeof e!="function")throw new TypeError(Ie);t=R(t)||0,w(r)&&(g=!!r.leading,u="maxWait"in r,d=u?Ae(R(r.maxWait)||0,t):d,p="trailing"in r?!!r.trailing:p);function S(c){var h=i,b=l;return i=l=void 0,f=c,o=e.apply(b,h),o}function G(c){return f=c,n=setTimeout(T,t),g?S(c):o}function M(c){var h=c-a,b=c-f,O=t-h;return u?Ne(O,d-b):O}function _(c){var h=c-a,b=c-f;return a===void 0||h>=t||h<0||u&&b>=d}function T(){var c=E();if(_(c))return j(c);n=setTimeout(T,M(c))}function j(c){return n=void 0,p&&i?S(c):(i=l=void 0,o)}function D(){n!==void 0&&clearTimeout(n),f=0,i=a=l=n=void 0}function F(){return n===void 0?o:j(E())}function x(){var c=E(),h=_(c);if(i=arguments,l=this,a=c,h){if(n===void 0)return G(a);if(u)return clearTimeout(n),n=setTimeout(T,t),S(a)}return n===void 0&&(n=setTimeout(T,t)),o}return x.cancel=D,x.flush=F,x}var je="Expected a function";function Oe(e,t,r){var i=!0,l=!0;if(typeof e!="function")throw new TypeError(je);return w(r)&&(i="leading"in r?!!r.leading:i,l="trailing"in r?!!r.trailing:l),_e(e,t,{leading:i,maxWait:t,trailing:l})}let m=[];const N=56;function Le(e,t){const r=parseInt(window.getComputedStyle(e).paddingTop,10),i=window.scrollY+e.getBoundingClientRect().top+r-N;window.scrollTo({left:0,top:i,behavior:t?"smooth":"auto"})}function $e(){const e=document.getElementById("aside-marker"),t=document.getElementById("aside-container"),r=Array.from((t==null?void 0:t.getElementsByTagName("a"))||[]).map(o=>decodeURIComponent(o.hash));if(!t)return;const i=(o,n)=>{if(o[n]){const a=o[n].getAttribute("href"),f=r.findIndex(u=>u===a);(t==null?void 0:t.querySelector(`a[href="#${a.slice(1)}"]`))&&(e.style.top=`${33+f*28}px`,e.style.opacity="1")}},d=Oe(()=>{if(m=Array.from(document.querySelectorAll(".nasuke-doc .header-anchor")).filter(n=>{var a;return((a=n.parentElement)==null?void 0:a.tagName)!=="H1"}),document.documentElement.scrollTop+window.innerHeight>=document.documentElement.scrollHeight){i(m,m.length-1);return}for(let n=0;n<m.length;n++){const a=m[n],f=m[n+1],g=Math.ceil(window.scrollY),u=a.parentElement.offsetTop-N;if(!f){i(m,n);break}if(n===0&&g<u||g==0){i(m,0);break}const p=f.parentElement.offsetTop-N;if(g>=u&&g<p){i(m,n);break}}},100);return window.addEventListener("scroll",d),()=>{window.removeEventListener("scroll",d)}}function Ce(e){const[t,r]=U(e);return B(()=>{}),t}function Re(e){const{headers:t=[]}=e,r=Ce(t),i=r.length>0,l=Y(null);B(()=>{const o=$e();return()=>{o()}},[]);const d=o=>s("li",{children:s("a",{href:`#${o.id}`,className:"block leading-7 text-text-2 hover:text-text-1",transition:"color duration-300",style:{paddingLeft:(o.depth-2)*12},onClick:n=>{n.preventDefault();const a=document.getElementById(o.id);a&&Le(a,!1)},children:o.text})},o.id);return s("div",{flex:"~ col 1",style:{width:"var(--nasuke-aside-width)"},children:s("div",{children:i&&P("div",{id:"aside-container",className:"relative divider-left pl-4 text-13px font-medium",children:[s("div",{ref:l,id:"aside-marker",className:"absolute top-33px opacity-0 w-1px h-18px bg-brand",style:{left:"-1px",transition:"top 0.25s cubic-bezier(0, 1, 0.5, 1), background-color 0.5s, opacity 0.25s"}}),s("div",{"leading-7":"~",text:"13px",font:"semibold",children:"ON THIS PAGE"}),s("nav",{children:s("ul",{relative:"~",children:r.map(d)})})]})})})}window.ISLANDS={SwitchAppearance:Z,Aside:Re};window.ISLAND_PROPS=JSON.parse(document.getElementById("island-props").textContent);
+</script>
+    <script type="module" src="/assets/client-entry.c79f77bb.js"></script>
+    <script id="island-props">[{},{"headers":[{"id":"211-什么是查询执行计划","text":"2.1.1 什么是查询执行计划","depth":3},{"id":"212-如何查看查询执行计划","text":"2.1.2 如何查看查询执行计划","depth":3},{"id":"31-索引的类型及创建方法","text":"3.1 索引的类型及创建方法","depth":3},{"id":"311-b-tree索引","text":"3.1.1 B-tree索引","depth":4},{"id":"312-哈希索引","text":"3.1.2 哈希索引","depth":4},{"id":"313-全文索引","text":"3.1.3 全文索引","depth":4},{"id":"32-索引的最佳实践","text":"3.2 索引的最佳实践","depth":3},{"id":"321-如何选择正确的索引","text":"3.2.1 如何选择正确的索引","depth":4},{"id":"322-索引的优化技巧","text":"3.2.2 索引的优化技巧","depth":4},{"id":"323-索引相关的最佳实践","text":"3.2.3 索引相关的最佳实践","depth":4},{"id":"41-sql语句写作规范","text":"4.1 SQL语句写作规范","depth":3},{"id":"411-sql语句的书写风格","text":"4.1.1 SQL语句的书写风格","depth":4},{"id":"412-sql语句的优化原则","text":"4.1.2 SQL语句的优化原则","depth":4},{"id":"42-避免全表扫描的方法","text":"4.2 避免全表扫描的方法","depth":3},{"id":"421-利用索引优化查询","text":"4.2.1 利用索引优化查询","depth":4},{"id":"422-使用覆盖索引提高性能","text":"4.2.2 使用覆盖索引提高性能","depth":4},{"id":"423-充分利用索引列的顺序","text":"4.2.3 充分利用索引列的顺序","depth":4},{"id":"51-慢查询日志的设置与分析","text":"5.1 慢查询日志的设置与分析","depth":3},{"id":"511-如何开启慢查询日志","text":"5.1.1 如何开启慢查询日志","depth":4},{"id":"512-通过慢查询日志找出性能瓶颈","text":"5.1.2 通过慢查询日志找出性能瓶颈","depth":4},{"id":"52-explain工具解读","text":"5.2 Explain工具解读","depth":3},{"id":"521-explain输出的含义","text":"5.2.1 Explain输出的含义","depth":4},{"id":"522-如何使用explain进行查询优化","text":"5.2.2 如何使用Explain进行查询优化","depth":4},{"id":"523-explain解读中的常见误区","text":"5.2.3 Explain解读中的常见误区","depth":4},{"id":"61-实例分析优化具体查询案例","text":"6.1 实例分析：优化具体查询案例","depth":3},{"id":"611-场景描述","text":"6.1.1 场景描述","depth":4},{"id":"612-优化前查询语句","text":"6.1.2 优化前查询语句","depth":4},{"id":"613-优化后查询语句","text":"6.1.3 优化后查询语句","depth":4},{"id":"614-代码逻辑说明","text":"6.1.4 代码逻辑说明","depth":4},{"id":"615-代码运行结果","text":"6.1.5 代码运行结果","depth":4},{"id":"62-经验总结mysql查询优化实践中的注意事项","text":"6.2 经验总结：MySQL查询优化实践中的注意事项","depth":3},{"id":"621-充分利用索引","text":"6.2.1 充分利用索引","depth":4},{"id":"622-避免过多的关联","text":"6.2.2 避免过多的关联","depth":4},{"id":"623-定期优化数据库","text":"6.2.3 定期优化数据库","depth":4},{"id":"63-盲点分析常见的mysql查询优化误区","text":"6.3 盲点分析：常见的MySQL查询优化误区","depth":3},{"id":"631-过度索引","text":"6.3.1 过度索引","depth":4},{"id":"632-忽略sql语句的性能","text":"6.3.2 忽略SQL语句的性能","depth":4},{"id":"633-缺乏整体规划","text":"6.3.3 缺乏整体规划","depth":4}]}]</script>
+  </body>
+</html>
